@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YousufFitnees</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(gym.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%
+    }
+
+    .left {
+        border: 2px solid red;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+        border: 2px solid green;
+        /* display: flex */
+
+
+    }
+
+    .right {
+        border: 2px solid yellow;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,.navbar li a.acvtive {
+        text-decoration: underline;
+        color: rgb(255, 3, 3);
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            I am left
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FitnessCalculator</a></li>
+                <li><a href="#">Contact us<a></li>
+
+            </ul </div>
+            <div class="right">
+                I am right
+
+
+            </div>
+    </header>
+
+</body>
+
+</html>
